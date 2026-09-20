@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430">
+<rect width="900" height="430" fill="white"/>
+<g font-family="Arial" fill="#111">
+<text x="450" y="45" text-anchor="middle" font-size="24" font-weight="bold">Arquitectura de microservicios</text>
+<rect x="300" y="75" width="300" height="70" rx="8" fill="#f7f7f7" stroke="#222" stroke-width="2"/>
+<text x="450" y="105" text-anchor="middle" font-size="18" font-weight="bold">Cliente</text>
+<text x="450" y="128" text-anchor="middle" font-size="15">Navegador / Postman / HTTP</text>
+<line x1="450" y1="145" x2="450" y2="195" stroke="#222" stroke-width="3"/>
+<rect x="90" y="205" width="300" height="120" rx="8" fill="#f7f7f7" stroke="#222" stroke-width="2"/>
+<text x="240" y="240" text-anchor="middle" font-size="18" font-weight="bold">pedidos-service</text>
+<text x="240" y="268" text-anchor="middle" font-size="15">Spring Boot</text>
+<text x="240" y="292" text-anchor="middle" font-size="15">Puerto 8082</text>
+<text x="240" y="314" text-anchor="middle" font-size="15">GET /pedidos/{id}</text>
+<rect x="510" y="205" width="300" height="120" rx="8" fill="#f7f7f7" stroke="#222" stroke-width="2"/>
+<text x="660" y="240" text-anchor="middle" font-size="18" font-weight="bold">usuarios-service</text>
+<text x="660" y="268" text-anchor="middle" font-size="15">Spring Boot</text>
+<text x="660" y="292" text-anchor="middle" font-size="15">Puerto 8081</text>
+<text x="660" y="314" text-anchor="middle" font-size="15">GET /usuarios/{id}</text>
+<line x1="390" y1="265" x2="510" y2="265" stroke="#222" stroke-width="3"/>
+<text x="450" y="248" text-anchor="middle" font-size="15">HTTP REST</text>
+<text x="450" y="375" text-anchor="middle" font-size="15">Comunicación entre servicios mediante API REST</text>
+</g></svg>

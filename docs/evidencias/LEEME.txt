@@ -1,0 +1,6 @@
+Evidencias para la sustentación:
+- Ejecución de usuarios-service.
+- Ejecución de pedidos-service.
+- GET /usuarios/1.
+- GET /pedidos/1.
+- Código de la llamada REST.
